@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portifolio-react-ts/static/css/main.a0b1c218.css",
+    "main.js": "/portifolio-react-ts/static/js/main.43cd49e4.js",
+    "static/media/laptopCode.png": "/portifolio-react-ts/static/media/laptopCode.dfa7a55cc77da8a37f75.png",
+    "static/media/revicons.eot": "/portifolio-react-ts/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portifolio-react-ts/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portifolio-react-ts/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/portifolio-react-ts/index.html",
+    "main.a0b1c218.css.map": "/portifolio-react-ts/static/css/main.a0b1c218.css.map",
+    "main.43cd49e4.js.map": "/portifolio-react-ts/static/js/main.43cd49e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0b1c218.css",
+    "static/js/main.43cd49e4.js"
+  ]
+}
