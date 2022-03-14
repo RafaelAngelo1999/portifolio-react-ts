@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import { Grid, Typography, Box } from '@mui/material';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { PROJETOS } from '../../../utils/Constantes';
-import CardProjeto from './CardProjeto';
+import { PROJETOS } from '../../../../utils/Constantes';
+import CardProjeto from '../CardProjeto/CardProjeto';
 
 const Projetos: FC = () => {
   const responsive = {

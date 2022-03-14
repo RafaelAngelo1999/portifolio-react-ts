@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Chip } from '@mui/material';
 import { GitHub } from 'react-feather';
-import { IExperiences } from '../../../utils/Constantes';
+import { IExperiences } from '../../../../utils/Constantes';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 interface ICardExperiencesProps {
@@ -27,7 +27,7 @@ const CardExperiecias: FC<ICardExperiencesProps> = ({ experience }) => {
         {experience.local}
       </h4>
       <p>
-        {experience.stacks.map((stack, i) => (
+        {experience.stacks.map((stack: string, i) => (
           <Chip
             key={i}
             label={stack}

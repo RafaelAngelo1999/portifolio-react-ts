@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Grid, Paper, Typography, Card, CardContent, CardActions, CardHeader } from '@mui/material';
-import { PRESENTATION, STACKS } from '../../../utils/Constantes';
+import { PRESENTATION, STACKS } from '../../../../utils/Constantes';
 
 const Sobre: FC = () => {
   return (

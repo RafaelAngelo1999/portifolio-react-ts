@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { Grid, Switch, Typography } from '@mui/material';
-import laptopCode from '../../../assets/icons/laptopCode.png';
-import { PRESENTATION } from '../../../utils/Constantes';
+import laptopCode from '../../../../assets/icons/laptopCode.png';
 import ReactTypingEffect from 'react-typing-effect';
+import { PRESENTATION } from '../../../../utils/Constantes';
 
 interface IApresentacaoProps {
   handleThemeChange: () => void;

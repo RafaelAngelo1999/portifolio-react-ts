@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import { Grid, Typography } from '@mui/material';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { EXPERIENCESES } from '../../../utils/Constantes';
-import CardExperiecias from './CardExperiecias';
+import { EXPERIENCESES } from '../../../../utils/Constantes';
+import CardExperiecias from '../CardExperiecias/CardExperiecias';
 
 const Experiencias: FC = () => {
   return (

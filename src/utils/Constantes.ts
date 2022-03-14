@@ -46,7 +46,7 @@ export const PROJETOS: IProject[] = [
     description:
       'BOT desenvolvido para fornecer informações atualizadas de casos de Corona Virus no Brasil, o bot utiliza da api externa COVID-19 Brazil API para fornecerer essas informações',
     stacks: ['React', 'HTML'],
-    linkRepos: 'https://github.com/RafaelAngelo1999/BotCoronaBrasil',
+    linkRepos: 'https://github.com/RafaelAngelo1999/BOT.Covid19-Twitter',
     linkDeploy: 'https://twitter.com/BOT_COVID_BR',
   },
   {

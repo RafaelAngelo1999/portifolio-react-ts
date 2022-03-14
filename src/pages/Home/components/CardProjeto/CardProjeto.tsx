@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Typography, Card, CardActionArea, CardContent, CardActions, IconButton, ButtonBase } from '@mui/material';
 import { GitHub, Globe } from 'react-feather';
-import { IProject, STACKS } from '../../../utils/Constantes';
+import { IProject, STACKS } from '../../../../utils/Constantes';
 
 interface ICardProjetoProps {
   projeto: IProject;

@@ -1,10 +1,10 @@
 import React, { FC, useState } from 'react';
 import { CssBaseline } from '@mui/material';
-import Apresentacao from '../components/Apresentacao';
+import { Apresentacao } from '../components/Apresentacao';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Sobre from '../components/Sobre';
-import Projetos from '../components/Projetos';
-import Experiencias from '../components/Experiencias';
+import { Sobre } from '../components/Sobre';
+import { Projetos } from '../components/Projetos';
+import { Experiencias } from '../components/Experiencias';
 
 const Home: FC = () => {
   const PRIMARY_COLOR = '#85534c';
