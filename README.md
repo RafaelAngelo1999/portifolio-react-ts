@@ -1,3 +1,12 @@
+# Portifolio REACT (TS)
+Portifolio desenvolvido utilizando react
+
+![](src/utils/readme/image/portifolio.jpg)
+
+## Publicado 
+
+[Portifolio React TS](https://rafaelangelo1999.github.io/portifolio-react-ts/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
