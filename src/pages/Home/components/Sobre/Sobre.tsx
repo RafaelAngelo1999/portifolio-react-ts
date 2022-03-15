@@ -1,8 +1,13 @@
 import React, { FC } from 'react';
 import { Grid, Paper, Typography, Card, CardContent, CardActions, CardHeader } from '@mui/material';
-import { PRESENTATION, STACKS } from '../../../../utils/Constantes';
+import { IPresentation, IStack } from '../../../../utils/Constantes';
 
-const Sobre: FC = () => {
+interface IPresetationProps {
+  presentation: IPresentation;
+  stacks: IStack[];
+}
+
+const Sobre: FC<IPresetationProps> = ({ presentation, stacks }) => {
   return (
     <Paper style={{ minHeight: '75vh' }}>
       <Grid container direction="row" justifyContent="center" alignItems="center" pt={5}>
@@ -13,10 +18,10 @@ const Sobre: FC = () => {
         <Grid item sm={12} md={5} columnSpacing={2}>
           <Card sx={{ maxWidth: 430, display: 'inline-block' }}>
             <CardContent>
-              <img alt={PRESENTATION.name} height={'400px'} src={PRESENTATION.img}></img>
+              <img alt={presentation.name} height={'400px'} src={presentation.img}></img>
             </CardContent>
             <CardActions sx={{ marginX: '2px' }}>
-              {STACKS.map((item, i) => (
+              {stacks.map((item, i) => (
                 <img key={i} alt={item.name} height="30" width="40" src={item.urlSvg}></img>
               ))}
             </CardActions>
@@ -31,7 +36,7 @@ const Sobre: FC = () => {
             ></CardHeader>
             <CardContent>
               <Typography sx={{ fontSize: 16 }} color="text.secondary" gutterBottom>
-                {PRESENTATION.mensage}
+                {presentation.mensage}
               </Typography>
             </CardContent>
           </Card>

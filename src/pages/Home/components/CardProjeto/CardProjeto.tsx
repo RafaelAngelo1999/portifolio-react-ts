@@ -18,14 +18,16 @@ const CardProjeto: FC<ICardProjetoProps> = ({ projeto }) => {
             src={projeto.image}
           ></img>
           <CardActions>
-            {projeto.stacks.map((stackProjeto, i) =>
-              STACKS.some(
-                (stack) =>
-                  stack.name === stackProjeto && (
-                    <img key={i} alt={stack.name} height="30" width="40" src={stack.urlSvg}></img>
-                  ),
-              ),
-            )}
+            <>
+              {projeto.stacks.map((stackProjeto, i) =>
+                STACKS.some(
+                  (stack) =>
+                    stack.name === stackProjeto && (
+                      <img key={i} alt={stack.name} height="30" width="40" src={stack.urlSvg}></img>
+                    ),
+                ),
+              )}
+            </>
           </CardActions>
           <Typography variant="h5" component="div">
             {projeto.name}

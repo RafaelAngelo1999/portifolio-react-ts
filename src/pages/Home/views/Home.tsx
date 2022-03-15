@@ -5,6 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Sobre } from '../components/Sobre';
 import { Projetos } from '../components/Projetos';
 import { Experiencias } from '../components/Experiencias';
+import { EXPERIENCESES, PRESENTATION, PROJETOS, STACKS } from '../../../utils/Constantes';
 
 const Home: FC = () => {
   const PRIMARY_COLOR = '#85534c';
@@ -57,10 +58,10 @@ const Home: FC = () => {
     <>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Apresentacao handleThemeChange={handleThemeChange} />
-        <Sobre />
-        <Projetos />
-        <Experiencias />
+        <Apresentacao presentation={PRESENTATION} handleThemeChange={handleThemeChange} />
+        <Sobre presentation={PRESENTATION} stacks={STACKS} />
+        <Projetos projetos={PROJETOS} />
+        <Experiencias experiences={EXPERIENCESES} />
       </ThemeProvider>
     </>
   );

@@ -2,10 +2,14 @@ import React, { FC } from 'react';
 import { Grid, Typography, Box } from '@mui/material';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { PROJETOS } from '../../../../utils/Constantes';
+import { IProject } from '../../../../utils/Constantes';
 import CardProjeto from '../CardProjeto/CardProjeto';
 
-const Projetos: FC = () => {
+interface IProjetosProps {
+  projetos: IProject[];
+}
+
+const Projetos: FC<IProjetosProps> = ({ projetos }) => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -31,7 +35,7 @@ const Projetos: FC = () => {
         <Typography variant="h2">Projetos</Typography>
       </Grid>
       <Carousel responsive={responsive}>
-        {PROJETOS.map((projetos, i) => (
+        {projetos.map((projetos, i) => (
           <CardProjeto key={i} projeto={projetos} />
         ))}
       </Carousel>
