@@ -1,3 +1,5 @@
+import myImage from '../assets/img/my.png';
+
 export interface IProject {
   id: number;
   name: string;
@@ -32,7 +34,7 @@ export interface IPresentation {
 export const PRESENTATION: IPresentation = {
   name: 'Rafael Angelo',
   posts: ['Hello, 👋', 'Meu nome é Rafael', 'Sou desenvolvedor Full-Stack'],
-  img: 'https://media-exp1.licdn.com/dms/image/C4E03AQEAoFH7cQkKPg/profile-displayphoto-shrink_800_800/0/1643154618151?e=1649289600&v=beta&t=8nAqctug7hnzuCgc6N0cwJp2YpDgVk7p1Of5SEAGMu8',
+  img: myImage,
   mensage:
     '👋 Sou Rafael Angelo. Sou um profissional que busca constantemente seu crescimento pessoal e profissional. Gosto de trabalhar em equipe, tenho facilidade de comunicação e busco aprender ao máximo com aqueles que possuem mais experiência ⭐. Crio ideias e desenvolvo soluções na forma de software usando minha criatividade e meu conhecimentos técnicos, escrevendo não apenas softwares escaláveis, mas também um código limpo que possibilitará a escalabilidade 💜.',
 };
