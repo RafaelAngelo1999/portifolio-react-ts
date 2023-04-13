@@ -7,7 +7,7 @@ import Apresentacao from './Apresentacao';
 describe('Teste do componente <Apresentacao />', () => {
   test('Validando renderização do componente', async () => {
     const handleThemeChange = jest.fn();
-    render(<Apresentacao handleThemeChange={handleThemeChange} presentation={PRESENTATION} />);
+    render(<Apresentacao handleThemeChange={handleThemeChange} presentation={PRESENTATION} isThemeDark={true} />);
 
     expect(screen.getByText(PRESENTATION.name)).toBeInTheDocument();
 

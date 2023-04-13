@@ -11,8 +11,11 @@ const Home: FC = () => {
   const PRIMARY_COLOR = '#85534c';
   const SECONDARY_COLOR = '#e088ac';
 
+  const THEME_DARK = 'dark';
+  const THEME_LIGHT = 'light';
+
   const [darkState, setDarkState] = useState(false);
-  const palletType = darkState ? 'dark' : 'light';
+  const palletType = darkState ? THEME_DARK : THEME_LIGHT;
 
   const handleThemeChange = () => {
     setDarkState(!darkState);
@@ -58,7 +61,7 @@ const Home: FC = () => {
     <>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Apresentacao presentation={PRESENTATION} handleThemeChange={handleThemeChange} />
+        <Apresentacao presentation={PRESENTATION} handleThemeChange={handleThemeChange} isThemeDark={darkState} />
         <Sobre presentation={PRESENTATION} stacks={STACKS} />
         <Projetos projetos={PROJETOS} />
         <Experiencias experiences={EXPERIENCESES} />

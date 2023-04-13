@@ -7,6 +7,7 @@
     "@deadcoder0904/react-typical": "^0.1.2",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.3.0",
     "@mui/styled-engine-sc": "^5.3.0",
     "@mui/styles": "^5.3.0",

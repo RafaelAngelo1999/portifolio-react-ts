@@ -9,7 +9,7 @@ interface IPresetationProps {
 
 const Sobre: FC<IPresetationProps> = ({ presentation, stacks }) => {
   return (
-    <Paper style={{ minHeight: '75vh' }}>
+    <Paper id="my-apresentation" style={{ minHeight: '75vh' }}>
       <Grid container direction="row" justifyContent="center" alignItems="center" pt={5}>
         <Typography variant="h2">Sobre mim</Typography>
       </Grid>
