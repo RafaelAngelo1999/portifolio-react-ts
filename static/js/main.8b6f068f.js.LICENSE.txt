@@ -11,13 +11,21 @@ object-assign
 */
 
 /*!
-  Copyright (c) 2018 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
 */
 
 /**
- * React Router v6.2.1
+ * @mui/styled-engine v5.12.0
+ *
+ * @license MIT
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.5.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -27,10 +35,15 @@ object-assign
  * @license MIT
  */
 
-/** @license MUI v5.3.0
+/**
+ * React Router v6.10.0
+ *
+ * Copyright (c) Remix Software Inc.
  *
  * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
  */
 
 /** @license React v0.20.2
