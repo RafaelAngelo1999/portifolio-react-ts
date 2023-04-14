@@ -8,10 +8,14 @@ interface ICardProjetoProps {
 }
 
 const CardProjeto: FC<ICardProjetoProps> = ({ projeto }) => {
+  const abrirLinkEmNovaAba = (link: string): void => {
+    window.open(link, '_blank');
+  };
+
   return (
     <Card sx={{ marginLeft: 2, maxWidth: 360, display: 'inline-block' }}>
       <CardActionArea>
-        <CardContent>
+        <CardContent onClick={() => abrirLinkEmNovaAba(projeto.linkRepos)}>
           <img
             alt={projeto.name}
             style={{ marginBottom: '15px', width: 'auto', height: 'auto', maxHeight: '335px' }}
