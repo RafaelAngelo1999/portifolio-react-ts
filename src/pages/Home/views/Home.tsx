@@ -54,6 +54,10 @@ const Home: FC = () => {
         main: '#276fbf',
         light: '#669df2',
       },
+      background: {
+        default: darkState ? '#493C3C' : '#beb9b9',
+        paper: darkState ? '##352E2E' : '#dedbdb',
+      },
     },
   });
 
