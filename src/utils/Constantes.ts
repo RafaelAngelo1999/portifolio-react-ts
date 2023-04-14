@@ -70,8 +70,64 @@ export const PROJETOS: IProject[] = [
     description:
       'Aplicação para extração de dados das páginas de produtos que analisa e mapeia os principais atributos e métricas e os salva em um banco de dados relacional. (Crawler/Scraper)',
     stacks: ['.NET', 'MYSQL'],
-    linkRepos: 'https://github.com/RafaelAngelo1999/WC.Backend/blob/main/assets/image1.png',
+    linkRepos: 'https://github.com/RafaelAngelo1999/WC.Backend',
     linkDeploy: 'https://bit.ly/DashboardWebCrawler',
+  },
+  {
+    id: 4,
+    name: 'Formulario de Usuario',
+    date: '2022',
+    image: 'https://user-images.githubusercontent.com/61028628/172021277-fee40c18-c818-40fe-9bfa-486c3ee0d6b4.png',
+    description:
+      'Aplicação para simulação de um formulário de cadastro, empregando algumas bibliotecas para facilitar as validações de dados inseridos e o gerenciamento dos estados dos componentes.',
+    stacks: ['React'],
+    linkRepos: 'https://github.com/RafaelAngelo1999/form-user-add',
+    linkDeploy: 'https://rafaelangelo1999.github.io/form-user-add',
+  },
+  {
+    id: 4,
+    name: 'Lista de Compras',
+    date: '2022',
+    image: 'https://raw.githubusercontent.com/RafaelAngelo1999/React.ListaDeCompra/main/src/utils/readme/projeto.png',
+    description:
+      'Aplicação para gerenciar lista de compras, onde é possível cadastrar itens por categorias já pré cadastradas e gerenciar esses ativos em tempo real',
+    stacks: ['React'],
+    linkRepos: 'https://github.com/RafaelAngelo1999/React.ListaDeCompra',
+    linkDeploy: 'https://rafaelangelo1999.github.io/React.ListaDeCompra',
+  },
+  {
+    id: 5,
+    name: 'Indeciso',
+    date: '2023',
+    image: 'https://raw.githubusercontent.com/RafaelAngelo1999/IndecisoRoulette/main/github/assets/indeciso.png',
+    description:
+      'Aplicação divertida e prática para ajudar os usuários a tomarem suas decisões. Além da funcionalidade de inserir uma lista de opções e roleta que permite visualizar de forma lúdica',
+    stacks: ['React'],
+    linkRepos: 'https://github.com/RafaelAngelo1999/IndecisoRoulette',
+    linkDeploy: 'https://rafaelangelo1999.github.io/IndecisoRoulette',
+  },
+  {
+    id: 6,
+    name: 'Raspadinha de Momentos',
+    date: '2023',
+    image:
+      'https://raw.githubusercontent.com/RafaelAngelo1999/couple-moments-collection/main/github/assets/raspadinha.png',
+    description:
+      'Aplicação interativa que permita aos casais colecionar e guardar recordações de momentos especiais que compartilharam juntos. Os usuários poderão criar lembranças únicas e significativas, salvá-las e compartilhá-las.',
+    stacks: ['React'],
+    linkRepos: 'https://github.com/RafaelAngelo1999/couple-moments-collection',
+    linkDeploy: 'https://rafaelangelo1999.github.io/couple-moments-collection',
+  },
+  {
+    id: 7,
+    name: 'Lista de Compras',
+    date: '2022',
+    image: 'https://raw.githubusercontent.com/RafaelAngelo1999/React.ListaDeCompra/main/src/utils/readme/projeto.png',
+    description:
+      'Aplicação para gerenciar lista de compras, onde é possível cadastrar itens por categorias já pré cadastradas e gerenciar esses ativos em tempo real',
+    stacks: ['React'],
+    linkRepos: 'https://github.com/RafaelAngelo1999/React.ListaDeCompra',
+    linkDeploy: 'https://rafaelangelo1999.github.io/React.ListaDeCompra',
   },
 ];
 
